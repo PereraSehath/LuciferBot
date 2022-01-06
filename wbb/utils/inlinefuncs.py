@@ -81,7 +81,7 @@ async def inline_help_func(__HELP__):
             for i in keywords_list
         ]
     )
-    answerss = [
+   answerss = [
         InlineQueryResultArticle(
             title="Inline Commands",
             description="Help Related To Inline Usage.",
@@ -92,19 +92,12 @@ async def inline_help_func(__HELP__):
             reply_markup=buttons,
         ),
         InlineQueryResultArticle(
-            title="Supporters",
-            description="Add up our Supporters Group.",
+            title="Github Repo",
+            description="Get Github Respository Of Bot.",
             input_message_content=InputTextMessageContent(
-                "https://t.me/ElizaSupporters"
+                "https://github.com/PereraSehath/LuciferBot"
             ),
             thumb_url="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-        ),
-        InlineQueryResultArticle(
-            title="Updates",
-            description="Add up our Updates Channel.",
-            input_message_content=InputTextMessageContent(
-                "https://t.me/Updates_of_ElizaBot"
-            ),
         ),
     ]
     answerss = await alive_function(answerss)
