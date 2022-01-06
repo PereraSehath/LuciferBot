@@ -105,6 +105,7 @@ async def inline_help_func(__HELP__):
             input_message_content=InputTextMessageContent(
                 "https://t.me/Updates_of_ElizaBot"
             ),
+        ),
     ]
     answerss = await alive_function(answerss)
     return answerss
