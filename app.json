@@ -2,7 +2,7 @@
     "name": "Lucifer",
     "description": "Telegram Group Management Bot Written In Python Using Pyrogram.",
     "repository": "https://github.com/PereraSehath/LuciferBot",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+    "logo": "https://te.legra.ph/file/bb178520d6005bdfc88c8.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -28,7 +28,7 @@
         },
         "SUDO_USERS_ID": {
             "description": "Sudo users have full access to everythin, don't trust anyone... ex:- 123456 654311 123456",
-            "required": true
+            "required": 2104120180 
         },
         "LOG_GROUP_ID": {
             "description": "For logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -66,7 +66,7 @@
         },
 	"OWNER_ID":{
 		"description": "Owner id of bot",
-		"required":true
+		"required":2104120180
 	}
     }
 }
