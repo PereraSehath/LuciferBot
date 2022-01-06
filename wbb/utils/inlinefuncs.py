@@ -92,13 +92,19 @@ async def inline_help_func(__HELP__):
             reply_markup=buttons,
         ),
         InlineQueryResultArticle(
-            title="Github Repo",
-            description="Get Github Respository Of Bot.",
+            title="Supporters",
+            description="Add up our Supporters Group.",
             input_message_content=InputTextMessageContent(
-                "https://github.com/rozari0/NezukoBot"
+                "https://t.me/ElizaSupporters"
             ),
             thumb_url="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
         ),
+        InlineQueryResultArticle(
+            title="Updates",
+            description="Add up our Updates Channel.",
+            input_message_content=InputTextMessageContent(
+                "https://t.me/Updates_of_ElizaBot"
+            ),
     ]
     answerss = await alive_function(answerss)
     return answerss
@@ -115,7 +121,7 @@ async def alive_function(answers):
     )
 
     msg = f"""
-**[{BOT_NAME}](https://github.com/rozari0/NezukoBot):**
+**[{BOT_NAME}](https://github.com/PereraSehath/LuciferBot):**
 **MainBot:** `{bot_state}`
 **Python:** `{pyver.split()[0]}`
 **Pyrogram:** `{pyrover}`
@@ -126,7 +132,7 @@ async def alive_function(answers):
         InlineQueryResultArticle(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://i.ibb.co/RCRDDTy/nezuko.jpg",
+            thumb_url="https://te.legra.ph/file/bb178520d6005bdfc88c8.jpg",
             input_message_content=InputTextMessageContent(
                 msg, disable_web_page_preview=True
             ),
